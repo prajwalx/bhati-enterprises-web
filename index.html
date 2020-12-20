@@ -1,0 +1,1370 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta name="google-site-verification" content="JiM0bIlYvmELqFZdv8vY4_1KS926E7LcipkFntvEx_A" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <base href="/">
+    <title>Bhati Enterprises</title>
+    <meta name="description" content="Bhati Enterprises is manufacturer of LED Spacer, Charger Cabinets , Cable
+                                        Ties , Injection Moulding Die and other plastic items and services .">
+    <meta name="keywords" content="led spacer,LED Spacer,mould,die,engineering moulds,manufacturer,charger moulds,
+    Injection Moulding,Plastic,Cable ties,Charger,led spacer,Mobile,manufacturer,led bulb moulds,Delhi,India,led spacer,
+    led spacer delhi,plastic,led base,cable tie,delhi,charger,led holder,bhati enterprises">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(client) app/vendor.css -->
+
+    <!--  jquery before carousel -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <!-- bower:css -->
+      <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" /> -->
+      <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css({.tmp,client}) app/app.css -->
+      <!-- <link rel="stylesheet" href="app/app.css"> -->
+      <link rel="stylesheet" href="index.css">
+      <!-- injector:css -->
+      <!-- endinjector -->
+    <!-- endbuild -->
+  </head>
+  <!-- <body ng-app="bhatiEnterprisesApp"> -->
+    <body ng-app="bhatiEnterprisesApp"data-spy="scroll" data-target=".navbarSpy" data-offset="100">
+
+    <!--[if lt IE 7]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <!-- <navbar></navbar> -->
+    <!-- NAVBAR
+        ///////////
+        //////////
+        /////////
+     -->
+     <div class="navbar navbar-default navbar-fixed-top navbarSpy " ng-controller="NavbarController">
+        <div class="container">
+          <div class="navbar-header">
+           <a class="navbar-brand"style="font-size:24px;" href="/">BHATI ENTERPRISES</a>
+            <!-- <button class="navbar-toggle" type="button" ng-click="nav.isCollapsed = !nav.isCollapsed">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> -->
+            <!-- <a href="/" class=""><h3 style="color:silver;font-weight:lighter;background-color:">BHATI ENTERPRISES &nbsp</h3></a> -->
+          </div>
+          <div uib-collapse="nav.isCollapsed" class="navbar-collapse collapse" id="navbar-main">
+      
+            <ul class="nav navbar-nav navbar-right">
+              <!-- <li ng-hide="nav.isLoggedIn()" ng-class="{active: nav.isActive('/signup')}"><a href="/signup">&nbsp REGISTER</a></li> -->
+              <!-- <li ng-hide="nav.isLoggedIn()" ng-class="{active: nav.isActive('/login')}"><a href="/login">LOGIN</a></li> -->
+              <!-- <li ng-show="nav.isLoggedIn()"><p class="navbar-text">Hello {{ nav.getCurrentUser().name }}</p> </li> -->
+              <!-- <li ng-show="nav.isLoggedIn()" ng-class="{active: nav.isActive('/settings')}"><a href="/settings"><span class="glyphicon glyphicon-cog"></span></a></li> -->
+              <!-- <li ng-show="nav.isLoggedIn()"><a href="/logout">LOGOUT</a></li> -->
+            </ul>
+      
+            <ul class="nav navbar-nav navbar-right">
+              <!-- <li ng-repeat="item in nav.menu" ng-class="{active: nav.isActive(item.link)}">
+                  <a ng-href="{{item.link}}">{{item.title}}</a>
+              </li> -->
+              <li><a href="/"ng-show="nav.isActive('/')">HOME</a></li>
+              <li><a href="#Services"ng-show="nav.isActive('/')">SERVICES</a></li>
+              <li><a href="#AboutUs"ng-show="nav.isActive('/')">ABOUT</a></li>
+              <li><a href="#Products"ng-show="nav.isActive('/')">PRODUCTS</a></li>
+              <li><a href="#ContactUs"ng-show="nav.isActive('/')">CONTACT</a></li>
+              <!-- <li ng-show="nav.isAdmin()" ng-class="{active: nav.isActive('/admin')}"><a href="/admin">Admin</a></li> -->
+            </ul>
+      
+      
+          </div>
+        </div>
+      </div>
+
+<div ng-view=""style="margin-top:50px">
+
+<div class=""style="">
+
+
+<div class="container-fluid">
+<div class="row">
+
+<!-- Return to Top:: All logic in css and js below for this simple codepen -->
+<a  id="return-to-top"><i class="glyphicon glyphicon-chevron-up"></i></a>
+<!-- Return to Top Ends -->
+
+<div id="myCarouselSlides" class="carousel slide" style="border:transparent 2px dark grey;border-style:groove;border-radius:2%"data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarouselSlides" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarouselSlides" data-slide-to="1"></li>
+    <li data-target="#myCarouselSlides" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner crouselHeight">
+
+    <div class="item active">
+      <img style="transform:translateY(-15%)"height="100%"width="100%"src="https://image.ibb.co/jROvvR/Carousel1.jpg" alt="Chicago">
+      <div class="text-block">
+        <h1 style="color:white;position:absolute;top:10px;right:100px;">The Complete <br>Injection Moulding <br> Service</h1>
+      </div>
+    </div>
+    <div class="item">
+      <!-- transform:translateY(-20%); -->
+      <!-- <img style="transform:translateY(-12%);opacity:0.5"src="https://media.istockphoto.com/photos/injection-moulding-machine-in-plastic-factory-picture-id639201058?s=2048x2048"alt=""> -->
+
+      <img width="100%"height="100%"style="transform:translateY(-20%);"src="https://image.ibb.co/gbfKN6/Carousel2.jpg" alt="">
+      <div class="text-block">
+        <h1 style="color:white;position:absolute;top:20px;left:60px;font-weight:lighte;text-decoration:underlin">We are Manufacturing Products<br>with World Class Quality</h1>
+     </div>
+    </div>
+
+    <div class="item ">
+      <!-- <img src="https://image.ibb.co/mZnupm/Carousel3.jpg" alt="New York"> -->
+      <img src="https://image.ibb.co/k8A0X6/carousel3.jpg" alt="">
+      <div class="text-block carouselImg3Txt">
+        <h1 style="position:absolute;top:20px;left:60px;">Empowering <br>Your Great Idea</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarouselSlides" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarouselSlides" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+  </div>
+</div>
+  <!-- Below Carousel;Popular Categories - - - - - - -  - - - - -->
+  <div class="container">
+
+
+    <br><br>
+    <h2>Popular Categories</h2>
+    <!-- Copy-Paste-Bootsnip -->
+    <div class="carousel slide" id="myCarousel">
+      <div class="carousel-inner">
+          <div class="item active">
+                  <ul class="thumbnails">
+                      <li class="col-sm-3">
+                          <div class="fff">
+                              <div class="thumbnail"style="height:240px;">
+                                  <a class="anchorStyle" href="#"><img src="https://image.ibb.co/nddOh6/LED_Spacer1.jpg" style="max-width:100%;max-height:100%"alt=""></a>
+                              </div>
+                              <div class="caption">
+                                  <h4>LED Spacer</h4>
+                                  <p>This is a basic form of spacer. Light weight, easy to mount, can be used as a spacer between LED.</p>
+                                  <a class="btn btn-mini" href="#Products">» Read More</a>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="col-sm-3">
+                          <div class="fff">
+                              <div class="thumbnail"style="height:240px;">
+                                  <a class="anchorStyle" href="#"><img src="https://image.ibb.co/k66sk8/Fuse_Holder1.jpg" style="max-width:100%;max-height:100%"alt=""></a>
+                              </div>
+                              <div class="caption">
+                                  <h4>Fuse Holders</h4>
+                                  <p>This is a basic form of 5 Ampere Fuse Holder. Light weight, easy to mount, can be used as a fuse holder on pcb mount.</p>
+                                  <a class="btn btn-mini" href="#FuseHolder">» Read More</a>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="col-sm-3">
+                          <div class="fff">
+                              <div class="thumbnail"style="">
+                                  <a class="anchorStyle" href="#"><img src="https://image.ibb.co/mF64pm/Cable_Tie2.png" alt=""></a>
+                              </div>
+                              <div class="caption">
+                                  <h4>Cable Ties</h4>
+                                  <p>We are a renowned and customer centric company,
+                  which is engaged in delivering a comprehensive range of Cable Ties.</p>
+                                  <a class="btn btn-mini" href="#CableTie">» Read More</a>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="col-sm-3">
+                          <div class="fff">
+                              <div class="thumbnail"style="">
+                                  <a class="anchorStyle" href="#"><img src="https://image.ibb.co/jryOh6/Charger2.jpg"
+                   alt=""></a>
+                              </div>
+                              <div class="caption">
+                                  <h4>Charger Cabinets</h4>
+                                  <p>This is Mobile Charger Cabinet with AC Pins.
+                  Light weight, High Strength, can be used as a Cabinet for USB, DC, AC Chargers.</p>
+                                  <a class="btn btn-mini" href="#Charger">» Read More</a>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+            </div><!-- /Slide1 -->
+           <div class="item">
+                  <ul class="thumbnails">
+                    <li class="col-sm-3">
+          <div class="fff">
+            <div class="thumbnail">
+              <a class="anchorStyle" href="#"><img src="https://image.ibb.co/kwnG26/Injection_Die2.jpg" alt=""></a>
+            </div>
+            <div class="caption">
+              <h4>Injection Moulding Die And Moulds</h4>
+              <p>We offer a first class Die and Moulds making service. With a wealth of experience in injection moulding.</p>
+              <a class="btn btn-mini" href="#InjectionDie">» Read More</a>
+            </div>
+                        </div>
+                    </li>
+                    <li class="col-sm-3">
+          <div class="fff">
+            <div class="thumbnail"style="">
+              <a class="anchorStyle" href="#"><img src="https://image.ibb.co/jryOh6/Charger2.jpg"
+                 alt=""></a>
+            </div>
+            <div class="caption">
+              <h4>Charger Cabinets</h4>
+              <p>This is Mobile Charger Cabinet with AC Pins.
+                Light weight, High Strength, can be used as a Cabinet for USB, DC, AC Chargers.</p>
+              <a class="btn btn-mini" href="#Charger">» Read More</a>
+            </div>
+                        </div>
+                    </li>
+                    <li class="col-sm-3">
+            <div class="fff">
+            <div class="thumbnail"style="height:240px;">
+              <a class="anchorStyle" href="#"><img src="https://image.ibb.co/nddOh6/LED_Spacer1.jpg" style="max-width:100%;max-height:100%"alt=""></a>
+            </div>
+            <div class="caption">
+              <h4>LED Spacer</h4>
+              <p>This is a basic form of spacer. Light weight, easy to mount, can be used as a spacer between LED.</p>
+              <a class="btn btn-mini" href="#Products">» Read More</a>
+            </div>
+                        </div>
+                    </li>
+                    <li class="col-sm-3">
+            <div class="fff">
+            <div class="thumbnail"style="height:240px;">
+              <a class="anchorStyle" href="#"><img src="https://image.ibb.co/k66sk8/Fuse_Holder1.jpg" style="max-width:100%;max-height:100%"alt=""></a>
+            </div>
+            <div class="caption">
+              <h4>Fuse Holders</h4>
+              <p>This is a basic form of 5 Ampere Fuse Holder. Light weight, easy to mount, can be used as a spacer between LED.</p>
+              <a class="btn btn-mini" href="#Products">» Read More</a>
+            </div>
+                        </div>
+                    </li>
+                  </ul>
+            </div><!-- /Slide2 -->
+          <!-- <div class="item">
+                  <ul class="thumbnails">
+                      <li class="col-sm-3">
+                          <div class="fff">
+                              <div class="thumbnail">
+                                  <a class="anchorStyle" href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                              </div>
+                              <div class="caption">
+                                  <h4>Praesent commodo</h4>
+                                  <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-mini" href="#">» Read More</a>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="col-sm-3">
+                          <div class="fff">
+                              <div class="thumbnail">
+                                  <a class="anchorStyle" href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                              </div>
+                              <div class="caption">
+                                  <h4>Praesent commodo</h4>
+                                  <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-mini" href="#">» Read More</a>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="col-sm-3">
+                          <div class="fff">
+                              <div class="thumbnail">
+                                  <a class="anchorStyle" href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                              </div>
+                              <div class="caption">
+                                  <h4>Praesent commodo</h4>
+                                  <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-mini" href="#">» Read More</a>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="col-sm-3">
+                          <div class="fff">
+                              <div class="thumbnail">
+                                  <a class="anchorStyle" href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                              </div>
+                              <div class="caption">
+                                  <h4>Praesent commodo</h4>
+                                  <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-mini" href="#">» Read More</a>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+            </div><!- - /Slide3 - -> -->
+      </div>
+
+
+     <nav>
+          <ul class="control-box pager"id="nav">
+              <li><a data-slide="prev" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+              <li><a data-slide="next" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+          </ul>
+      </nav>
+     <!-- /.control-box -->
+
+  </div><!-- /#myCarousel -->
+    <!--  Ends Bootsnip-->
+
+
+  </div>
+
+  <!-- Popular Categories Ends -->
+
+  <!-- Services Starts -->
+  <!-- Container (Services Section) -->
+
+
+
+<div id="Services"class="container-fluid text-center"style="background-color:white;padding-top:80px;">
+<h2>SERVICES</h2>
+<h4>What we offer</h4>
+<br>
+<div class="row">
+<div class="col-sm-4">
+  <span class="glyphicon glyphicon-cog" style="font-size:50px;color:mediumseagreen"></span>
+  <h3>Injection Moulding</h3>
+  <p>We have been providing a professional injection moulding service since 1995. We have the capacity
+     and knowledge to fulfil a wide range of injection moulding requirements backed up by excellent customer service.</p>
+</div>
+<div class="col-sm-4">
+  <span class="glyphicon glyphicon-wrench"style="font-size:50px;color:deepskyblue"></span>
+  <h3>Mould Making </h3>
+  <p>We offer a first class Mould making service. With a wealth of experience in injection moulding, in
+    choosing us you can be assured of the quality of your tools, and ultimately your end product.</p>
+</div>
+<div class="col-sm-4">
+  <span class="glyphicon glyphicon-pencil" style="font-size:50px;color:crimson"></span>
+  <h3>Design & Development</h3>
+  <p>We work closely with you to create a product to your unique specifications. Many clients come
+    to us with just an idea – we work with you to make it a reality, in time and to budget with the functionality you require.</p>
+</div>
+</div>
+<br><br><br><br>
+
+<br><br>
+
+
+
+</div>
+  <!-- Services Ends -->
+
+
+<!-- About Us Starts -->
+  <!-- Container (About Section) -->
+<div id="AboutUs"class="container-fluid"style="padding:5%;padding-top:80px;">
+<div class="row">
+  <div class="col-sm-8">
+    <h1 style="font-family:palanquin;font-size:45px;"> Bhati Enterprises</h1><br>
+    <h4>Bhati Enterprises has a reputation for providing a comprehensive
+      and quality injection moulding service.  We have over 20 years’ experience,
+       extensive in house facilities and we’re dedicated to providing great customer service.</h4>
+    <p>For information on how we can help your business, contact us on 987 1103 466 or email <a href="mailto:bhati.enterprises@yahoo.in?Subject=Hello%20again" target="_top">bhati.enterprises@yahoo.in</a></p>
+    <button class="btn btn-default btn-lg"><a id="getintouch"href="#ContactUs">Get in Touch</a></button>
+  </div>
+  <div class="col-sm-4">
+    <br>
+    <span class="glyphicon glyphicon-signal"style="font-size:150px;color:deepskyblue"></span>
+    <!-- <div style="border:solid 2px black">
+    <img  src="http://www.replasmachinery.co.uk/media/1083/toolmaking-service-for-injection-moulding.jpg"width="100%"height="100%" alt=""> -->
+    </div>
+
+  </div>
+</div>
+<br><br>
+</div>
+<!-- About Us Ends -->
+
+<!-- Some of our Products Starts-->
+<div class="container-fluid"style="background-color:white;">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 style="font-family:DejaVu Sans mono;font-size:35px;font-weight:lighter !important;"class="text-center"> Some of our Popular Products</h1><br>
+    <center><div class="horiLine"style="border:solid 3px red"></div></center>
+  </div>
+  </div>
+</div>
+<!-- </div> -->
+<br><br>
+<!-- Some of our Products Title Ends -->
+
+  <!-- Products Listing Down below  -->
+    <div id="Products"class=""style="background-color:white;padding:2%;border-top:solid 2px gainsboro;overflow:hidden;padding-top:80px">
+
+      <div class="row">
+
+
+          <div class="col-md-6">
+            <b><h2 style="color:mediumseagreen;font-weight:lighter">L E D  &nbsp S P A C E R S</h2></b>
+          </div>
+          <div class="col-md-6"><br>
+            <p style="text-align:right;color:mediumseagreen">Specs &nbsp Features &nbsp T&C</p>
+
+          </div>
+      </div>
+
+    <hr style="height:35ppx;color:mediumseagreen !important">
+  <!--Image of Led Spacer  -->
+      <div class="row">
+        <div class="col-md-9"style="">
+              <img src="https://image.ibb.co/nddOh6/LED_Spacer1.jpg"style="max-width:100%;max-height:100%" alt="No IMG">
+                <div class="col-md-9"style="padding:3%">
+                  <h3>Round LED Spacer</h3>
+                  <p>This is a basic form of spacer. Light weight, easy to mount, can be used as a spacer between LED.</p>
+                  <h4>Material :</h4>
+
+                  <p>Nylon, PolyPropene, ABS, LDPE, PVC, Derylene, Nylon 6,6</p>
+
+                  <h4>Available Sizes</h4>
+                  <table class="table table-responsive table-bordered table-striped"style="overflow-x:scroll">
+                    <tr>
+                      <th>Height</th>
+                      <th>Width</th>
+                      <th>Pitch</th>
+                    </tr>
+                    <tr>
+                      <td>1-25mm</td>
+                      <td>1-25mm</td>
+                      <td>0.8-1.5mm</td>
+                    </tr>
+                  </table>
+
+                <button class="btn btn-primary btn-lg"data-toggle="modal"data-target="#Request">Request Quote</button>
+                </div>
+              <!--  Horizontal Slides of Products belo Image of LED Green-->
+
+              <!-- <div class="table-responsive table-hover"style="overflow-x:scroll;">
+                <table class="table"style="cellspacing:10px;">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                        <img style="height:100%;width:100%;"src="http://in.element14.com/productimages/standard/en_GB/42249686.jpg" alt="">
+                        <h5 class="text-center text-primary">LED Spacer 1mm,1mm,</h5>
+                        <h5 class="text-center text-primary">Rs. 0.3</h5>
+                        </div>
+
+                      </td>
+                      <td>
+                        <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                        <img style="height:100%;width:100%;"src="http://in.element14.com/productimages/standard/en_GB/42249686.jpg" alt="">
+                        <h5 class="text-center text-primary">LED Spacer 1mm,1mm,</h5>
+                        <h5 class="text-center text-primary">Rs. 0.3</h5>
+                        </div>
+
+                      </td>
+                      <td>
+                        <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                        <img style="height:100%;width:100%;"src="http://in.element14.com/productimages/standard/en_GB/42249686.jpg" alt="">
+                        <h5 class="text-center text-primary">LED Spacer 3mm,3mm,</h5>
+                        <h5 class="text-center text-primary">Rs. 0.4</h5>
+                        </div>
+
+                      </td>
+                      <td>
+                        <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                        <img style="height:100%;width:100%;"src="http://in.element14.com/productimages/standard/en_GB/42249686.jpg" alt="">
+                        <h5 class="text-center text-primary">LED Spacer 4mm,4mm,</h5>
+                        <h5 class="text-center text-primary">Rs. 0.5</h5>
+                        </div>
+
+                      </td>
+                      <td>
+                        <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                        <img style="height:100%;width:100%;"src="http://in.element14.com/productimages/standard/en_GB/42249686.jpg" alt="">
+                        <h5 class="text-center text-primary">LED Spacer 5mm,5mm,</h5>
+                        <h5 class="text-center text-primary">Rs. 0.6</h5>
+                        </div>
+
+                      </td>
+                      <td>
+                        <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                        <img style="height:100%;width:100%;"src="http://in.element14.com/productimages/standard/en_GB/42249686.jpg" alt="">
+                        <h5 class="text-center text-primary">LED Spacer 6mm,6mm,</h5>
+                        <h5 class="text-center text-primary">Rs. 0.7</h5>
+                        </div>
+
+                      </td>
+                    </tr>
+
+                  </tbody>
+
+                </table>
+                </div> -->
+              <!--   Horizontal Slides of Products belo Image of LED Green Ends-->
+        </div>
+
+
+        <div class="col-md-3"style="">
+
+
+              <b><h3 style="color:black;font-weight:lighter;text-align:center">P R O D U C T S</h3></b>
+                <center><div class="horiLine"style="border:solid 2px crimson;"></div></center>
+
+                <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                      <a href="#">
+                        <img width="100%"height="100%"src="https://image.ibb.co/c7QQvR/LED_Spacer2.jpg" alt="Lights" style="width:100%">
+                        <div class="caption text-center">
+                          <p>LED Spacer 1mm,1mm,</p>
+                          <!-- <p>Rs. 0.10</p> -->
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                          <a href="#">
+                            <img src="https://image.ibb.co/iChupm/LED_Spacer3.gif" alt="Lights" style="width:100%">
+                            <div class="caption text-center">
+                              <p>LED Spacer 2mm,2mm,</p>
+                              <!-- <p>Rs. 0.20</p> -->
+                            </div>
+                          </a>
+                        </div>
+
+        </div>
+
+
+    </div>
+  <!-- ROw ENDS -->
+  </div><!-- LED Spacer Ends -->
+<br>
+
+<!-- 5 amp Fuse Holder Starts -->
+<div class=""style="background-color:white;padding:2%;border-top:solid 2px gainsboro;overflow:hidden">
+
+<div class="row"id="FuseHolder">
+
+
+    <div class="col-md-6">
+      <b><h2 style="color:dodgerblue;font-weight:lighter">P C B &nbsp M O U N T &nbsp F U S E &nbsp H O L D E R </h2></b>
+    </div>
+    <div class="col-md-6"><br>
+      <p style="text-align:right;color:dodgerblue">Specs &nbsp Features &nbsp T&C</p>
+
+    </div>
+</div>
+
+<hr style="height:35ppx;color:mediumseagreen !important">
+<!--Image   -->
+<div class="row">
+  <div class="col-md-9"style="">
+        <img src="https://image.ibb.co/k66sk8/Fuse_Holder1.jpg"style="max-width:100%;max-height:100%" alt="No IMG">
+        <div class="col-md-9"style="padding:3%">
+          <h3>5 AMP Fuse Holder</h3>
+          <p>This is a basic form of 5 Ampere Fuse Holder. Light weight, easy to mount.
+            We are a renowned and customer centric company,
+            which is engaged in delivering a comprehensive range of Fuse Holders.</p>
+
+          <h4>Material :</h4>
+
+          <p> Nylon-66 FR Grade</p>
+          <h4>Available Sizes</h4>
+          <table class="table table-responsive table-bordered table-striped"style="overflow-x:scroll">
+            <tr>
+              <th>Screw Type</th>
+              <th>Contacts</th>
+              <th>Rating</th>
+              <th>Insulation Resistance</th>
+              <th>Breaking Voltage</th>
+            </tr>
+            <tr>
+              <td>5 x 20 mm</td>
+              <td>Brass- Tin Plated</td>
+              <td>6.3amp, 250V</td>
+              <td>100 M ohm @ 500V DC</td>
+              <td>1500V min.</td>
+            </tr>
+          </table>
+        <button class="btn btn-primary btn-lg"data-toggle="modal"data-target="#Request">Request Quote</button>
+        </div>
+  </div>
+
+  <div class="col-md-3"style="">
+
+        <b><h3 style="color:black;font-weight:lighter;text-align:center">P R O D U C T S</h3></b>
+          <center><div class="horiLine"style="border:solid 2px crimson;"></div></center>
+
+          <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                <a href="/w3images/lights.jpg">
+                  <img width="100%"height="100%"src="https://image.ibb.co/fBcF58/Fuse_Holder2.jpg" alt="Lights" style="width:100%">
+                  <div class="caption text-center">
+                    <p>Fuse Holders</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                    <a href="/w3images/lights.jpg">
+                      <img src="https://image.ibb.co/iPJcJT/Fuse_Holder3.jpg" alt="Lights" style="width:100%">
+                      <div class="caption text-center">
+                        <p>Fuse Holders</p>
+                      </div>
+                    </a>
+                  </div>
+
+  </div>
+
+</div>
+
+
+</div>
+<!-- 5 amp Fuse holder Ends -->
+<br>
+
+
+<!-- Injection Mould Starts -->
+<div class=""style="background-color:white;padding:2%;border-top:solid 2px gainsboro;overflow:hidden">
+
+<div class="row"id="InjectionDie">
+
+
+    <div class="col-md-6">
+      <b><h2 style="color:crimson;font-weight:lighter">I N J E C T I O N  &nbsp M O U L D S</h2></b>
+    </div>
+    <div class="col-md-6"><br>
+      <p style="text-align:right;color:crimson">Specs &nbsp Features &nbsp T&C</p>
+
+    </div>
+</div>
+
+<hr style="height:35ppx;color:mediumseagreen !important">
+<!--Image of Led Spacer  -->
+<div class="row">
+  <div class="col-md-9"style="">
+        <img src="https://image.ibb.co/fHEJFR/Injection_Die1.jpg"style="max-width:100%;max-height:100%" alt="No IMG">
+        <div class="col-md-9"style="padding:3%">
+          <h3>Injection Moulds</h3>
+          <p>We are a renowned and customer centric company,
+            which is engaged in delivering a comprehensive range of Injection Moulding Dies and Moulds.</p>
+
+          <h4>Material :</h4>
+
+          <p> Die Steel, High Speed Steel, P-20, EN-31, STAVEX,</p>
+          <h4>Available Sizes</h4>
+          <table class="table table-responsive table-bordered table-striped"style="overflow-x:scroll">
+            <tr>
+              <th>Short-Weight</th>
+              <th>Runner</th>
+              <th>Cavity</th>
+              <th>Surface Finish</th>
+            </tr>
+            <tr>
+              <td>1g-1000g</td>
+              <td>Hot Runner / Cold Runner</td>
+              <td>Single Cavity / Multiple Cavity</td>
+              <td>Diamond Polish / Chrome Plating</td>
+            </tr>
+          </table>
+        <button class="btn btn-primary btn-lg"data-toggle="modal"data-target="#Request">Request Quote</button>
+        </div>
+        <!--  Horizontal Slides of Products belo Image of LED Green-->
+
+        <!-- <div class="table-responsive table-hover"style="overflow-x:scroll;">
+          <table class="table"style="cellspacing:10px;">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="https://5.imimg.com/data5/WU/CJ/MY-8578112/plastic-injection-moulds-250x250.jpg" alt="">
+                  <h4 class="text-center text-primary">Injection Moulding Dye</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="http://3.imimg.com/data3/QL/YS/MY-2799004/plastic-injection-moulding-250x250.jpg" alt="">
+                  <h4 class="text-center text-primary">Injection Moulding Dye</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="https://5.imimg.com/data5/WU/CJ/MY-8578112/plastic-injection-moulds-250x250.jpg" alt="">
+                  <h4 class="text-center text-primary">Injection Moulding Dye</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="http://3.imimg.com/data3/QL/YS/MY-2799004/plastic-injection-moulding-250x250.jpg" alt="">
+                  <h4 class="text-center text-primary">Injection Moulding Dye</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="https://5.imimg.com/data5/WU/CJ/MY-8578112/plastic-injection-moulds-250x250.jpg" alt="">
+                  <h4 class="text-center text-primary">Injection Moulding Dye</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="http://3.imimg.com/data3/QL/YS/MY-2799004/plastic-injection-moulding-250x250.jpg" alt="">
+                  <h4 class="text-center text-primary">Injection Moulding Dye</h4>
+                  </div>
+
+                </td>
+              </tr>
+
+            </tbody>
+
+          </table>
+          </div> -->
+        <!--   Horizontal Slides of Products belo Image of LED Green Ends-->
+  </div>
+
+
+  <div class="col-md-3"style="">
+
+
+        <b><h3 style="color:black;font-weight:lighter;text-align:center">P R O D U C T S</h3></b>
+          <center><div class="horiLine"style="border:solid 2px crimson;"></div></center>
+
+          <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                <a href="/w3images/lights.jpg">
+                  <img width="100%"height="100%"src="https://image.ibb.co/kwnG26/Injection_Die2.jpg" alt="Lights" style="width:100%">
+                  <div class="caption text-center">
+                    <p>Injection Moulding Die</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                    <a href="/w3images/lights.jpg">
+                      <img src="https://image.ibb.co/cijw26/Injection_Die3.jpg" alt="Lights" style="width:100%">
+                      <div class="caption text-center">
+                        <p>Injection Moulding Die</p>
+                      </div>
+                    </a>
+                  </div>
+
+  </div>
+
+</div>
+
+
+</div>
+<!-- Injection Mould Ends -->
+<br>
+
+<!-- MicroSwitch Starts -->
+<div id="Products"class=""style="background-color:white;padding:2%;border-top:solid 2px gainsboro;overflow:hidden;">
+
+<div class="row">
+
+
+    <div class="col-md-6">
+      <b><h2 style="color:mediumseagreen;font-weight:lighter">M I C R O  &nbsp S W I T C H</h2></b>
+    </div>
+    <div class="col-md-6"><br>
+      <p style="text-align:right;color:mediumseagreen">Specs &nbsp Features &nbsp T&C</p>
+
+    </div>
+</div>
+
+<hr style="height:35ppx;color:mediumseagreen !important">
+<!--Image of Micro Spacer  -->
+<div class="row">
+  <div class="col-md-9"style="">
+        <img src="https://i.ibb.co/qpNxj9J/Micro-Switch2.jpg"style="max-width:100%;max-height:100%" alt="No IMG">
+          <div class="col-md-9"style="padding:3%">
+            <h3>MicroSwitch</h3>
+            <p>MicroSwitch is an electric switch that is actuated by very little physical force, through the use of a tipping-point mechanism, sometimes called an "over-center" mechanism..</p>
+            <h4>Material :</h4>
+
+            <p>Nylon, PolyPropene, ABS, LDPE, PVC, Derylene, Nylon 6,6</p>
+
+            <h4>Available Sizes</h4>
+            <table class="table table-responsive table-bordered table-striped"style="overflow-x:scroll">
+              <tr>
+                <th>Height</th>
+                <th>Width</th>
+                <th>Pitch</th>
+              </tr>
+              <tr>
+                <td>1-25mm</td>
+                <td>1-25mm</td>
+                <td>0.8-1.5mm</td>
+              </tr>
+            </table>
+
+          <button class="btn btn-primary btn-lg"data-toggle="modal"data-target="#Request">Request Quote</button>
+          </div>
+
+  </div>
+
+
+  <div class="col-md-3"style="">
+
+
+        <b><h3 style="color:black;font-weight:lighter;text-align:center">P R O D U C T S</h3></b>
+          <center><div class="horiLine"style="border:solid 2px crimson;"></div></center>
+
+          <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                <a href="#">
+                  <img width="100%"height="100%"src="https://i.ibb.co/rkxBQqY/Micro-Switch1.jpg" alt="Lights" style="width:100%">
+                  <div class="caption text-center">
+                    <p>MicroSwitch Blue</p>
+                    <!-- <p>Rs. 0.10</p> -->
+                  </div>
+                </a>
+              </div>
+
+              <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                    <a href="#">
+                      <img src="https://i.ibb.co/qpNxj9J/Micro-Switch2.jpg" alt="Lights" style="width:100%">
+                      <div class="caption text-center">
+                        <p>MicroSwitch Black-Red</p>
+                        <!-- <p>Rs. 0.20</p> -->
+                      </div>
+                    </a>
+                  </div>
+
+  </div>
+
+
+</div>
+<!-- ROw ENDS -->
+</div><!-- MicroSwitch Ends -->
+<br>
+
+<!-- Charger Cabinets Start -->
+<div class=""style="background-color:white;padding:2%;border-top:solid 2px gainsboro;overflow:hidden">
+
+<div class="row">
+
+
+    <div class="col-md-6">
+      <b><h2 style="color:deepskyblue;font-weight:lighter">C H A R G E R &nbsp C A B I N E T S</h2></b>
+    </div>
+    <div class="col-md-6"><br>
+      <p style="text-align:right;color:deepskyblue">Specs &nbsp Features &nbsp T&C</p>
+
+    </div>
+</div>
+
+<hr style="height:35ppx;color:mediumseagreen !important">
+<!--Image of Led Spacer  -->
+<div class="row"id="Charger">
+  <div class="col-md-9"style="">
+        <img src="https://image.ibb.co/ctX5vR/Charger1.jpg"style="max-width:100%;max-height:100%" alt="No IMG">
+        <div class="col-md-9"style="padding:3%">
+          <h3>Charger Cabinets</h3>
+          <p>This is Mobile Charger Cabinet with AC Pins.
+            Light weight, High Strength, can be used as a Cabinet for USB, DC, AC Chargers.</p>
+
+          <h4>Material :</h4>
+
+          <p>PC-ABS, Nylon, PolyPropene, ABS, LDPE, PVC, Derylene, Nylon 6,6</p>
+
+          <!--<h4>Available Sizes</h4>
+           <table class="table table-responsive table-bordered table-striped"style="overflow-x:scroll">
+            <tr>
+              <th>Height</th>
+              <th>Width</th>
+              <th>Pitch</th>
+            </tr>
+            <tr>
+              <td>1-25mm</td>
+              <td>1-25mm</td>
+              <td>1-25mm</td>
+            </tr>
+          </table> -->
+
+        <button class="btn btn-primary btn-lg"data-toggle="modal"data-target="#Request">Request Quote</button>
+        </div>
+        <!--  Horizontal Slides of Products belo Image of LED Green-->
+
+        <!-- <div class="table-responsive table-hover"style="overflow-x:scroll;">
+          <table class="table"style="cellspacing:10px;">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="https://rukminim1.flixcart.com/image/312/312/j1b0xow0/battery-charger/wall-charger/p/z/x/sony-cp-ad2ac-original-imaenumj8xpbzfrg.jpeg?q=70" alt="">
+                  <h4 class="text-center text-primary">Charger Cabinets</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="https://images-na.ssl-images-amazon.com/images/I/61luqeMWOPL._SX425_.jpg" alt="">
+                  <h4 class="text-center text-primary">Charger Cabinets</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="https://images-na.ssl-images-amazon.com/images/I/61luqeMWOPL._SX425_.jpg" alt="">
+                  <h4 class="text-center text-primary">Charger Cabinets</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="http://stat.homeshop18.com/homeshop18/images/productImages/404/lg-wall-mobile-charging-adapter-mcs-02ed-medium_102439d7b124339df934f6008d1cf137.jpg" alt="">
+                  <h4 class="text-center text-primary">Charger Cabinets</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="https://rukminim1.flixcart.com/image/704/704/battery-charger/r/p/p/sony-cp-ad2-c-original-imaeggfv9waqpbnw.jpeg?q=70" alt="">
+                  <h4 class="text-center text-primary">Charger Cabinets</h4>
+                  </div>
+
+                </td>
+                <td>
+                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
+                  <img style="height:100%;width:100%;"src="https://rukminim1.flixcart.com/image/704/704/battery-charger/r/p/p/sony-cp-ad2-c-original-imaeggfv9waqpbnw.jpeg?q=70" alt="">
+                  <h4 class="text-center text-primary">Charger Cabinets</h4>
+                  </div>
+
+                </td>
+              </tr>
+
+            </tbody>
+
+          </table>
+          </div> -->
+        <!--   Horizontal Slides of Products belo Image of LED Green Ends-->
+  </div>
+
+
+  <div class="col-md-3"style="">
+
+
+        <b><h3 style="color:black;font-weight:lighter;text-align:center">P R O D U C T S</h3></b>
+          <center><div class="horiLine"style="border:solid 2px crimson;"></div></center>
+
+          <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                <a href="/w3images/lights.jpg">
+                  <img width="100%"height="100%"
+                  src="https://image.ibb.co/jryOh6/Charger2.jpg"
+                   alt="Lights" style="width:100%">
+                  <div class="caption text-center">
+                    <p>Charger Cabinets</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                    <a href="/w3images/lights.jpg">
+                      <img src="https://image.ibb.co/hJG4QR/charger3.jpg" alt="Lights" style="width:100%">
+                      <div class="caption text-center">
+                        <p>Charger Cabinets</p>
+                      </div>
+                    </a>
+                  </div>
+
+  </div>
+
+</div>
+
+
+</div>
+<!-- Charger Cabinets End -->
+<br>
+<!--Cable Ties Start  -->
+<div class=""style="background-color:white;padding:2%;border-top:solid 2px gainsboro;overflow:hidden">
+
+<div class="row"id="CableTie">
+
+
+    <div class="col-md-6">
+      <b><h2 style="color:deepskyblue;font-weight:lighter">C A B L E &nbsp T I E S </h2></b>
+    </div>
+    <div class="col-md-6"><br>
+      <p style="text-align:right;color:deepskyblue">Specs &nbsp Features &nbsp T&C</p>
+
+    </div>
+</div>
+
+<hr style="height:35ppx;color:mediumseagreen !important">
+<!--Image of Cable Tie  -->
+<div class="row">
+  <div class="col-md-9"style="">
+        <img src="https://image.ibb.co/cpWth6/Cable_Tie1.jpg"style="max-width:100%;max-height:100%" alt="No IMG">
+        <div class="col-md-9"style="padding:3%">
+          <h3>Cable Ties</h3>
+          <p>We are a renowned and customer centric company,
+            which is engaged in delivering a comprehensive range of Cable Ties.</p>
+
+          <h4>Material :</h4>
+
+          <p> Nylon, PolyPropene, ABS, LDPE, PVC, Derylene, Nylon 6,6</p>
+          <h4>Available Sizes</h4>
+          <table class="table table-responsive table-bordered table-striped"style="overflow-x:scroll">
+            <tr>
+              <th>Length</th>
+              <th>Width</th>
+              <th>Color</th>
+            </tr>
+            <tr>
+              <td>50-700mm</td>
+              <td>1-25mm</td>
+              <td>All colors</td>
+            </tr>
+          </table>
+        <button class="btn btn-primary btn-lg"data-toggle="modal"data-target="#Request">Request Quote</button>
+        </div>
+
+  </div>
+
+  <div class="col-md-3"style="">
+
+
+        <b><h3 style="color:black;font-weight:lighter;text-align:center">P R O D U C T S</h3></b>
+          <center><div class="horiLine"style="border:solid 2px crimson;"></div></center>
+
+          <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                <a href="/w3images/lights.jpg">
+                  <img width="100%"height="100%"
+                  src="https://image.ibb.co/mF64pm/Cable_Tie2.png"
+                   alt="Lights" style="width:100%">
+                  <div class="caption text-center">
+                    <p>Blue Cable Ties</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
+                    <a href="/w3images/lights.jpg">
+                      <img src="https://image.ibb.co/e4mR26/Cable_Tie3.jpg" alt="Lights" style="width:100%">
+                      <div class="caption text-center">
+                        <p>Red Cable Tie</p>
+                      </div>
+                    </a>
+                  </div>
+
+  </div>
+
+</div>
+
+
+</div>
+<!--Cable Ties End  -->
+<br>
+
+  <!-- </div> -->
+  <!-- End Container -->
+<!-- </div> -->
+<!-- Contact Us Begins -->
+<div id="ContactUs"class="container-fluid bg-grey"style="padding-top:80px;">
+<h2 class="text-center">CONTACT</h2>
+<div class="row">
+  <div class="col-sm-5"style="padding:3%">
+    <p>Contact us and we'll get back to you within 24 hours.</p>
+    <p><span class="glyphicon glyphicon-map-marker"></span> New Delhi, India</p>
+    <p><span class="glyphicon glyphicon-phone"></span> +91 987-1103-466</p>
+    <p><span class="glyphicon glyphicon-envelope"></span> bhati.enterprises@yahoo.in</p>
+  </div>
+  <div class="col-sm-7"style="padding:2%">
+    <script type="text/javascript">var submitted2=false;</script>
+    <iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" 
+      onload="if(submitted2) {swal('Good job!', 'We will get back Soon!', 'success').then(()=> window.location='/')}"></iframe>
+    <form class="form" 
+      action="https://docs.google.com/forms/d/e/1FAIpQLSfTSaJXkRqvMAax-KIzasOhyFlmOgJsb4kehnT_gQVtiAyehg/formResponse" 
+      method="POST" id="CommentForm"name="googleForm2"
+      target="hidden_iframe2" onsubmit="submitted2=true" >
+    <div class="row">
+      <div class="col-sm-6 form-group"ng-class="{ 'has-success': Cform.name.$valid && $ctrl.submitted,
+                                          'has-error': Cform.name.$invalid && $ctrl.submitted }">
+        <label>Name</label>
+        <input class="form-control" id="name" name="entry.2005620554" placeholder="Name" type="text" required>
+
+        <!-- <p class="help-block "ng-show="Cform.name.$error.required && $ctrl.submitted">Name is Required</p> -->
+      </div>
+
+      <div class="col-sm-6 form-group"ng-class="{ 'has-success': Cform.email.$valid && $ctrl.submitted,
+                                          'has-error': Cform.email.$invalid && $ctrl.submitted }" >
+        <label>Email</label>
+
+        <input type="email" name="entry.1045781291" class="form-control"placeholder="Enter your Email" 
+               required
+               />
+
+               <!-- <p class="help-block" ng-show="Cform.email.$error.email && $ctrl.submitted">
+                 Doesn't look like a valid email.
+               </p>
+               <p class="help-block" ng-show="Cform.email.$error.required && $ctrl.submitted">
+                 What's your email address?
+               </p>
+               <p class="help-block" ng-show="Cform.email.$error.mongoose">
+                 {{ $ctrl.errors.email }}
+               </p> -->
+      </div>
+
+      <div class="col-sm-6 form-group"ng-class="{ 'has-success': Cform.phone.$valid && $ctrl.submitted,
+                                          'has-error': Cform.phone.$invalid && $ctrl.submitted }" >
+      <label>Phone No.</label>
+
+      <input type="text" name="entry.1166974658"class="form-control"placeholder="Enter Your Phone No"
+      required/>
+      <!-- <p class="help-block"ng-show="Cform.phone.$error.required && $ctrl.submitted">
+      Phone Number is Required
+      </p>
+
+      <p class="help-block"ng-show="Cform.phone.$error.maxlength && $ctrl.submitted">
+      Phone Number must be of 10 digits only.
+      </p>
+
+      <p class="help-block"ng-show="Cform.phone.$error.minlength && $ctrl.submitted">
+      Phone Number must be of 10 digits only.
+      </p> -->
+
+      </div>
+      <div class="col-sm-6 form-group">
+        <label>Company</label>
+        <input class="form-control" name="entry.782521982" placeholder="Company Name (Optional)"
+        type="text" >
+
+      </div>
+    </div>
+    <div class="form-group"ng-class="{ 'has-success': Cform.comment.$valid && $ctrl.submitted,
+                                        'has-error': Cform.comment.$invalid && $ctrl.submitted }" >
+    <label>Comment</label>
+    <textarea  rows="5"type=""class="form-control" name="entry.839337160"class="form-control"placeholder="To Get Best QUOTES Describe Your Requirements in Detail Like:
+- What Are You Looking For
+- Features / Specifications
+- Application / Usage
+- Minimum Order Quantity, etc"
+    value="" required ></textarea>
+    <!-- <p class="help-block"ng-show="Cform.comment.$error.required && $ctrl.submitted">
+      Comment is Required</p>
+    </div> -->
+    <br>
+    <div class="row">
+      <div class="col-sm-12 form-group">
+        <button type="submit" class="btn btn-default pull-right">Send</button>
+      </div>
+    </div>
+  </form>
+
+  </div>
+</div>
+</div>
+<!-- Contact Us Ends -->
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTSaJXkRqvMAax-KIzasOhyFlmOgJsb4kehnT_gQVtiAyehg/viewform?embedded=true" width="640" height="986" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+
+<!-- Request Quote Modal Starts -->
+
+<div class="modal fade" id="Request" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true"style="margin-top:70px;">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h4 class="modal-title text-center" id="">Request Quote</h4>
+
+    </div>
+    <div class="modal-body">
+
+      <script type="text/javascript">var submitted=false;</script>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+        onload="if(submitted) {swal('Good job!', 'We will get back Soon!', 'success').then(()=> window.location='/')}"></iframe>
+      <form class="form" 
+        action="https://docs.google.com/forms/d/e/1FAIpQLSfTSaJXkRqvMAax-KIzasOhyFlmOgJsb4kehnT_gQVtiAyehg/formResponse" 
+        method="POST" id="RequestQuoteForm"
+        name="googleForm" target="hidden_iframe" onsubmit="submitted=true;">
+
+
+        <div class="form-group"ng-class="{ 'has-success': form.comment.$valid && $ctrl.submitted,
+                                            'has-error': form.comment.$invalid && $ctrl.submitted }" >
+        <label>Comment</label>
+        <textarea  rows="5"type=""class="form-control" name="entry.839337160"class="form-control"placeholder="To Get Best QUOTES Describe Your Requirements in Detail Like:
+  - What Are You Looking For
+  - Features / Specifications
+  - Application / Usage
+  - Minimum Order Quantity, etc"
+        required></textarea>
+        <!-- <p class="help-block"ng-show="form.comment.$error.required && $ctrl.submitted">
+          Comment is Required</p> -->
+        </div>
+
+        <div class="form-group"ng-class="{ 'has-success': form.name.$valid && $ctrl.submitted,
+                                            'has-error': form.name.$invalid && $ctrl.submitted }" >
+        <label>Name</label>
+
+        <input type="text" name="entry.2005620554"class="form-control"placeholder="Enter Your Name"
+        required/>
+        <!-- <p class="help-block"ng-show="form.name.$error.required && $ctrl.submitted">
+        Name is Required
+        </p> -->
+
+        </div>
+
+        <div class="form-group"ng-class="{ 'has-success': form.email.$valid && $ctrl.submitted,
+                                            'has-error': form.email.$invalid && $ctrl.submitted }" >
+          <label>Email</label>
+
+          <input type="email" name="entry.1045781291" class="form-control"placeholder="Enter your Email"
+                 required
+                />
+
+                 <!-- <p class="help-block" ng-show="form.email.$error.email && $ctrl.submitted">
+                   Doesn't look like a valid email.
+                 </p>
+                 <p class="help-block" ng-show="form.email.$error.required && $ctrl.submitted">
+                   What's your email address?
+                 </p>
+                 <p class="help-block" ng-show="form.email.$error.mongoose">
+                   {{ $ctrl.errors.email }}
+                 </p> -->
+        </div>
+
+        <div class="form-group"ng-class="{ 'has-success': form.phone.$valid && $ctrl.submitted,
+                                            'has-error': form.phone.$invalid && $ctrl.submitted }" >
+        <label>Phone No.</label>
+
+        <input type="text" name="entry.1166974658"class="form-control"placeholder="Enter Your Phone No:"
+        required/>
+        <!-- <p class="help-block"ng-show="form.phone.$error.required && $ctrl.submitted">
+        Phone Number is Required
+        </p>
+
+        <p class="help-block"ng-show="form.phone.$error.maxlength && $ctrl.submitted">
+        Phone Number must be of 10 digits only.
+        </p>
+
+        <p class="help-block"ng-show="form.phone.$error.minlength && $ctrl.submitted">
+        Phone Number must be of 10 digits only.
+        </p> -->
+
+        </div>
+        <input type="submit" id="gform-modal-submit-btn" hidden>
+        </form>
+
+
+    </div>
+    <div class="modal-footer">
+      <p class="text-left">Contact us and we'll get back to you within 24 hours</p>
+      <button type="button" id="closeModalbtn"class="btn btn-default" data-dismiss="modal">Close</button>
+      <button class="btn btn-success btn-lg btn-register" type="button"ng-click="$ctrl.submit(form)" onclick="document.getElementById('gform-modal-submit-btn').click()">
+        Send</button>
+
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+    <!-- <footer></footer> -->
+    <!-- FOOTER BEGINS
+        ////////////
+        ////////////
+        ////////////
+     -->
+<div class="container-fluid footerNoSpy"style="background-color:black;padding:1%;"ng-controller=FooterController>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="col-md-4">
+            <b><h4 class="footlinks">Information</h4></b><br>
+            <div class="horiLineFooter"style="border:solid 1px white;"></div><br>
+            <h5 class="subfootlinks">Disclaimer</h5><br>
+            <h5 class="subfootlinks">Disclaimer</h5><br>
+            <h5 class="subfootlinks">Privacy Policy</h5><br>
+            <h5 class="subfootlinks">Returns</h5><br>
+            <h5 class="subfootlinks">Terms And Conditions</h5><br>
+          </div>
+      
+            <div class="col-md-4">
+              <b><h4 class="footlinks">My Account</h4></b><br>
+              <div class="horiLineFooter"style="border:solid 1px white;"></div><br>
+              <h5 class="subfootlinks">My Orders</h5><br>
+              <h5 class="subfootlinks">Login</h5><br>
+              <h5 class="subfootlinks">WishList</h5><br>
+              <h5 class="subfootlinks">Register</h5><br>
+              <h5 class="subfootlinks">FAQs</h5><br>
+            </div>
+      
+            <div class="col-md-4">
+              <b><h4 class="footlinks">Information</h4></b><br>
+              <div class="horiLineFooter"style="border:solid 1px white;"></div><br>
+              <h5 class="subfootlinks">Disclaimer</h5><br>
+              <h5 class="subfootlinks">Disclaimer</h5><br>
+              <h5 class="subfootlinks">Privacy Policy</h5><br>
+              <h5 class="subfootlinks">Returns</h5><br>
+              <h5 class="subfootlinks">Terms And Conditions</h5><br>
+            </div>
+      
+            <!-- <div class="col-md-12 "in-view="$inview&&foot.counter(0,1000)">
+              <span class="count_style">{{(foot.nStr[8])===undefined?0:(foot.nStr[8])}}</span>
+              <span class="count_style">{{(foot.nStr[7])===undefined?0:(foot.nStr[7])}}</span>
+              <span class="count_style">{{(foot.nStr[6])===undefined?0:(foot.nStr[6])}}</span>
+              <span class="count_style">{{(foot.nStr[5])===undefined?0:(foot.nStr[5])}}</span>
+              <span class="count_style">{{(foot.nStr[4])===undefined?0:(foot.nStr[4])}}</span>
+              <span class="count_style">{{(foot.nStr[3])===undefined?0:(foot.nStr[3])}}</span>
+              <span class="count_style">{{(foot.nStr[2])===undefined?0:(foot.nStr[2])}}</span>
+              <span class="count_style">{{(foot.nStr[1])===undefined?0:(foot.nStr[1])}}</span>
+              <span class="count_style">{{(foot.nStr[0])===undefined?0:(foot.nStr[0])}}</span>
+            </div> -->
+      
+          </div>
+          <div class="col-md-6"style="">
+            <div class="col-md-4"style="background-color:#2C2C2C;">
+              <div class=""style="width:100%">
+                <a href="/"class="subfootlinks"><h3 style="font-weight:bolder">BHATI ENTERPRISES</h3></a>
+                <div class="horiLineFooter"style="border:solid 1px white;"></div><br>
+                <a href="/"class="subfootlinks"><h4 style="font-weight:lighter">D-149/1,Flatted Factory Complex,<br>Okhla Phase-<b>III</b>,<br>New Delhi-110020</h4></a>
+                <a href="/"class="subfootlinks"><h4 style="font-weight:lighter">Email:<br>bhati.enterprises@yahoo.in</h4></a>
+                <a href="/"class="subfootlinks"><h4 style="font-weight:lighter">Work-Time:<br>Mon-Fri, 9:00am to 5:00pm</h4></a>
+              </div>
+      
+            </div>
+            <div class="col-md-8">
+            <div id="googleMap" style="width:100%;height:330px;"></div>
+            </div>
+      
+          </div>
+      
+        </div>
+      
+</div>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52421603-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-52421603-2');
+    </script>
+
+<!-- Request Quote Modal Ends -->
+
+<script src="index.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpjg0vprIQ5NpbKHlGVfLc5M-c4vH-YHs&callback=myMap"></script>

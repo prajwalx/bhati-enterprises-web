@@ -1,0 +1,312 @@
+
+body{
+background-color: whitesmoke;
+}
+.menu-head{
+font-size: 17.5px;
+text-align: left;
+font-family: sans-serif;
+font-weight:lighter;
+color: white !important;
+background-color: deepskyblue !important ;
+padding-left: 10%;
+
+
+}
+
+.horiLine
+      {
+      position: relative;
+      width: 30px;
+      border: solid 2px red;
+      border-color: red transparent transparent transparent;
+      }
+#h11 ,#h22 ,#h33, #h44{
+font-size: 17.5px;
+text-align: left;
+font-family: sans-serif;
+font-weight:lighter;
+/*color: white !important;*/
+}
+#h11:hover{
+background-color: lightgreen;
+}
+#h22:hover{
+background-color: skyblue;
+}
+#h33:hover{
+background-color: burlywood;
+}
+#h44:hover{
+background-color: lightpink ;
+}
+
+/*a:hover{
+text-decoration: none;
+
+}*/
+/*
+BootSnip CSS Starts
+*/
+/* Global */
+
+
+img { max-width:100%; }
+
+a {
+  -webkit-transition: all 150ms ease;
+  -moz-transition: all 150ms ease;
+  -ms-transition: all 150ms ease;
+  -o-transition: all 150ms ease;
+  transition: all 150ms ease;
+  }
+
+a .anchorStyle:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+  filter: alpha(opacity=50); /* IE7 */
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+
+
+body{
+  /*border-top:0;*/
+  /*background:#c4e17f;
+  background-image:-webkit-linear-gradient(left,#c4e17f,#c4e17f 12.5%,
+  #f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,
+  #f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,
+  #669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:-moz-linear-gradient(left,#c4e17f,
+  #c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,
+  #db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);
+  background-image:-o-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,
+  #fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,
+  #669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:linear-gradient(to right,#c4e17f,#c4e17f 12.5%,
+  #f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,
+  #c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4)*/
+}
+
+.thumbnails li> .fff .caption {
+  background:#fff !important;
+  padding:10px
+}
+
+/* Page Header */
+/*.page-header {
+  background: #f9f9f9;
+  margin: -30px -40px 40px;
+  padding: 20px 40px;
+  border-top: 4px solid #ccc;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.page-header h3 {
+  line-height: 0.88rem;
+  color: #000;
+}*/
+
+ul.thumbnails {
+  margin-bottom: 0px;
+}
+
+
+
+/* Thumbnail Box */
+.caption h4 {
+  color: #444;
+}
+
+.caption p {
+  color: #999;
+}
+
+
+
+/* Carousel Control */
+.control-box  {
+  text-align: right;
+  width: 100%;
+}
+.carousel-control #nav{
+  background: #666;
+  border: 0px;
+  border-radius: 0px;
+  display: inline-block;
+  font-size: 34px;
+  font-weight: 200;
+  line-height: 18px;
+  opacity: 0.5;
+  padding: 4px 10px 0px;
+  position: static;
+  height: 30px;
+  width: 15px;
+}
+
+
+
+/* Mobile Only */
+@media (max-width: 767px) {
+  .page-header, .control-box {
+      text-align: center;
+  }
+}
+@media (max-width: 479px) {
+  .caption {
+      word-break: break-all;
+  }
+}
+
+
+li { list-style-type:none;}
+
+::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }
+
+/*
+BOOTSNIP CSS ENDS
+*/
+
+/*Carousel Height*/
+.crouselHeight{
+height:250px;overflow-y:hidden
+}
+.carouselImg3Txt{
+color:white;
+}
+@media screen and (min-width: 480px) {
+.crouselHeight{
+  height:490px;overflow-y:hidden
+}
+.carouselImg3Txt{
+  color:black;
+}
+}
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  z-index:1000;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+
+
+/*
+    Footer CSS
+    Begins
+    /////////////
+    ////////////
+*/
+
+.subfootlinks{
+    font-weight:lighter !important;
+    color:grey;
+    margin-bottom:0;
+    margin-top:0;
+
+  }
+  .subfootlinks:hover{
+
+    color:white !important;
+    font-weight: bold !important;
+  }
+  .footlinks{
+    font-weight:lighter;color:dodgerblue;margin-bottom:0
+
+  }
+  .horiLineFooter
+          {
+          position: relative;
+          width: 30px;
+          border: solid 1px white;
+          border-color: white transparent transparent transparent;
+          }
+  .nostyleAnchor{
+    color:silver;
+    font-weight:bold;
+  }
+   .nostyleAnchor:hover{
+    text-decoration: none;
+    color:white !important;
+    font-weight: lighter !important;
+
+  }
+  .count_style{
+    color:whitesmoke;
+    font-size:21px;
+    letter-spacing: 2px;
+    border:solid 1.1px white;
+    padding:6px;
+    margin:0;
+    border-radius:15%;
+    text-align:center;
+  }
+  footer.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #E5E5E5;
+  }
+
+  /*
+    Navbar CSS
+    Begins
+    /////////////
+    ////////////
+*/
+
+  .navbarSpy{
+    /*height:80px;*/
+    margin-bottom: 0;
+     /*background-color: #f4511e;*/
+  
+     z-index: 9999;
+     border: 0;
+     font-size: 12px !important;
+     line-height: 1.42857143 !important;
+     letter-spacing: 4px;
+     border-radius: 0;
+  
+  }
+  .navbarSpy li a:hover, .navbarSpy li.active a {
+      color: #f4511e !important;
+      /*color: white !important;*/
+      background-color: #fff !important;
+      /*background-color: black !important;*/
+  }
+  
