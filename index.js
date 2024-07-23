@@ -85,7 +85,8 @@ function myMap() {
 
   function onSubmit(token) {
     console.log('onSubmit called')
-    document.getElementById("CommentForm").submit();
+    console.log(document.getElementById('submit-btn-ggl'));
+    document.getElementById('submit-btn-ggl').click();
   }
   function onSubmit2(token){
     console.log('onSubmit2 called')
