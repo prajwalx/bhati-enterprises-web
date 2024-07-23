@@ -86,6 +86,14 @@ body{
   #c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4)*/
 }
 
+.fff > .thumbnail{
+  height: 250px;
+  overflow: hidden;
+}
+.fff > .caption {
+  height: 243px;
+}
+
 .thumbnails li> .fff .caption {
   background:#fff !important;
   padding:10px

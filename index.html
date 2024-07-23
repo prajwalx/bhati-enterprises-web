@@ -9,11 +9,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <base href="/">
     <title>Bhati Enterprises</title>
-    <meta name="description" content="Bhati Enterprises is manufacturer of LED Spacer, Charger Cabinets , Cable
-                                        Ties , Injection Moulding Die and other plastic items and services .">
-    <meta name="keywords" content="led spacer,LED Spacer,mould,die,engineering moulds,manufacturer,charger moulds,
-    Injection Moulding,Plastic,Cable ties,Charger,led spacer,Mobile,manufacturer,led bulb moulds,Delhi,India,led spacer,
-    led spacer delhi,plastic,led base,cable tie,delhi,charger,led holder,bhati enterprises">
+    <meta name="description" content="Bhati Enterprises is manufacturer of LED Spacer and fire alarm equipments MCP, 
+      Resettable MCP, Panic Switch, Hooters, Response Indicator, Siren, Ceiling Speakers, Smoke Detector, Fire Alarm Panel
+      and other fire alarm related accessories .">
+    <meta name="keywords" content="led spacer,LED Spacer,manufacturer, MCP, Resettable MCP, Response Indicator,
+    Exit Switch, Ceiling Speaker, Hooter, Smoke detector, Injection Moulding,Plastic,led spacer,Mobile,manufacturer,
+    led bulb moulds,Delhi,India,led spacer,led spacer delhi,plastic,led base,delhi,charger,led holder,bhati enterprises">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(client) app/vendor.css -->
@@ -28,6 +29,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
       <!-- bower:css -->
       <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" /> -->
       <!-- endbower -->
@@ -160,13 +162,13 @@
     <br><br>
     <h2>Popular Categories</h2>
     <!-- Copy-Paste-Bootsnip -->
-    <div class="carousel slide" id="myCarousel">
+    <div class="carousel slide" id="myCarousel" style="padding-top: 100px;margin-top: -90px;">
       <div class="carousel-inner">
           <div class="item active">
                   <ul class="thumbnails">
                       <li class="col-sm-3">
                           <div class="fff">
-                              <div class="thumbnail"style="height:240px;">
+                              <div class="thumbnail">
                                   <a class="anchorStyle" href="#"><img src="https://image.ibb.co/nddOh6/LED_Spacer1.jpg" style="max-width:100%;max-height:100%"alt=""></a>
                               </div>
                               <div class="caption">
@@ -178,7 +180,7 @@
                       </li>
                       <li class="col-sm-3">
                           <div class="fff">
-                              <div class="thumbnail"style="height:240px;">
+                              <div class="thumbnail">
                                   <a class="anchorStyle" href="#"><img src="https://image.ibb.co/k66sk8/Fuse_Holder1.jpg" style="max-width:100%;max-height:100%"alt=""></a>
                               </div>
                               <div class="caption">
@@ -190,18 +192,29 @@
                       </li>
                       <li class="col-sm-3">
                           <div class="fff">
-                              <div class="thumbnail"style="">
-                                  <a class="anchorStyle" href="#"><img src="https://image.ibb.co/mF64pm/Cable_Tie2.png" alt=""></a>
+                              <div class="thumbnail">
+                                  <a class="anchorStyle"  href="#"><img style="height: 350px; width: auto; margin-top: -20%;"  src="assets/images/IMG_5968 2.png" alt=""></a>
                               </div>
                               <div class="caption">
-                                  <h4>Cable Ties</h4>
-                                  <p>We are a renowned and customer centric company,
-                  which is engaged in delivering a comprehensive range of Cable Ties.</p>
+                                  <h4>MCP - Resettable Manual Call Point (ABS)</h4>
+                                  <p>A manual call point is a wall-mounted device that allows occupants to manually trigger the fire alarm in a building, aiding evacuation and emergency response.</p>
                                   <a class="btn btn-mini" href="#CableTie">» Read More</a>
                               </div>
                           </div>
                       </li>
                       <li class="col-sm-3">
+                        <div class="fff">
+                          <div class="thumbnail">
+                            <a class="anchorStyle" href="#"><img src="https://image.ibb.co/kwnG26/Injection_Die2.jpg" alt=""></a>
+                          </div>
+                          <div class="caption">
+                            <h4>Injection Moulding Die And Moulds</h4>
+                            <p>We offer a first class Die and Moulds making service. With a wealth of experience in injection moulding.</p>
+                            <a class="btn btn-mini" href="#InjectionDie">» Read More</a>
+                          </div>
+                                      </div>
+                        </li>
+                      <!-- <li class="col-sm-3">
                           <div class="fff">
                               <div class="thumbnail"style="">
                                   <a class="anchorStyle" href="#"><img src="https://image.ibb.co/jryOh6/Charger2.jpg"
@@ -214,7 +227,7 @@
                                   <a class="btn btn-mini" href="#Charger">» Read More</a>
                               </div>
                           </div>
-                      </li>
+                      </li> -->
                   </ul>
             </div><!-- /Slide1 -->
            <div class="item">
@@ -231,7 +244,7 @@
             </div>
                         </div>
                     </li>
-                    <li class="col-sm-3">
+                    <!-- <li class="col-sm-3">
           <div class="fff">
             <div class="thumbnail"style="">
               <a class="anchorStyle" href="#"><img src="https://image.ibb.co/jryOh6/Charger2.jpg"
@@ -244,7 +257,7 @@
               <a class="btn btn-mini" href="#Charger">» Read More</a>
             </div>
                         </div>
-                    </li>
+                    </li> -->
                     <li class="col-sm-3">
             <div class="fff">
             <div class="thumbnail"style="height:240px;">
@@ -269,7 +282,19 @@
             </div>
                         </div>
                     </li>
-                  </ul>
+              <li class="col-sm-3">
+                      <div class="fff">
+                          <div class="thumbnail">
+                              <a class="anchorStyle"  href="#"><img style="height: 350px; width: auto; margin-top: -20%;"  src="assets/images/IMG_5968 2.png" alt=""></a>
+                          </div>
+                          <div class="caption">
+                              <h4>MCP - Resettable Manual Call Point (ABS)</h4>
+                              <p>A manual call point is a wall-mounted device that allows occupants to manually trigger the fire alarm in a building, aiding evacuation and emergency response.</p>
+                              <a class="btn btn-mini" href="#CableTie">» Read More</a>
+                          </div>
+                      </div>
+                  </li>
+                </ul>
             </div><!-- /Slide2 -->
           <!-- <div class="item">
                   <ul class="thumbnails">
@@ -861,220 +886,10 @@
 <br>
 
 <!-- Charger Cabinets Start -->
-<div class=""style="background-color:white;padding:2%;border-top:solid 2px gainsboro;overflow:hidden">
 
-<div class="row">
-
-
-    <div class="col-md-6">
-      <b><h2 style="color:deepskyblue;font-weight:lighter">C H A R G E R &nbsp C A B I N E T S</h2></b>
-    </div>
-    <div class="col-md-6"><br>
-      <p style="text-align:right;color:deepskyblue">Specs &nbsp Features &nbsp T&C</p>
-
-    </div>
-</div>
-
-<hr style="height:35ppx;color:mediumseagreen !important">
-<!--Image of Led Spacer  -->
-<div class="row"id="Charger">
-  <div class="col-md-9"style="">
-        <img src="https://image.ibb.co/ctX5vR/Charger1.jpg"style="max-width:100%;max-height:100%" alt="No IMG">
-        <div class="col-md-9"style="padding:3%">
-          <h3>Charger Cabinets</h3>
-          <p>This is Mobile Charger Cabinet with AC Pins.
-            Light weight, High Strength, can be used as a Cabinet for USB, DC, AC Chargers.</p>
-
-          <h4>Material :</h4>
-
-          <p>PC-ABS, Nylon, PolyPropene, ABS, LDPE, PVC, Derylene, Nylon 6,6</p>
-
-          <!--<h4>Available Sizes</h4>
-           <table class="table table-responsive table-bordered table-striped"style="overflow-x:scroll">
-            <tr>
-              <th>Height</th>
-              <th>Width</th>
-              <th>Pitch</th>
-            </tr>
-            <tr>
-              <td>1-25mm</td>
-              <td>1-25mm</td>
-              <td>1-25mm</td>
-            </tr>
-          </table> -->
-
-        <button class="btn btn-primary btn-lg"data-toggle="modal"data-target="#Request">Request Quote</button>
-        </div>
-        <!--  Horizontal Slides of Products belo Image of LED Green-->
-
-        <!-- <div class="table-responsive table-hover"style="overflow-x:scroll;">
-          <table class="table"style="cellspacing:10px;">
-            <tbody>
-              <tr>
-                <td>
-                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
-                  <img style="height:100%;width:100%;"src="https://rukminim1.flixcart.com/image/312/312/j1b0xow0/battery-charger/wall-charger/p/z/x/sony-cp-ad2ac-original-imaenumj8xpbzfrg.jpeg?q=70" alt="">
-                  <h4 class="text-center text-primary">Charger Cabinets</h4>
-                  </div>
-
-                </td>
-                <td>
-                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
-                  <img style="height:100%;width:100%;"src="https://images-na.ssl-images-amazon.com/images/I/61luqeMWOPL._SX425_.jpg" alt="">
-                  <h4 class="text-center text-primary">Charger Cabinets</h4>
-                  </div>
-
-                </td>
-                <td>
-                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
-                  <img style="height:100%;width:100%;"src="https://images-na.ssl-images-amazon.com/images/I/61luqeMWOPL._SX425_.jpg" alt="">
-                  <h4 class="text-center text-primary">Charger Cabinets</h4>
-                  </div>
-
-                </td>
-                <td>
-                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
-                  <img style="height:100%;width:100%;"src="http://stat.homeshop18.com/homeshop18/images/productImages/404/lg-wall-mobile-charging-adapter-mcs-02ed-medium_102439d7b124339df934f6008d1cf137.jpg" alt="">
-                  <h4 class="text-center text-primary">Charger Cabinets</h4>
-                  </div>
-
-                </td>
-                <td>
-                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
-                  <img style="height:100%;width:100%;"src="https://rukminim1.flixcart.com/image/704/704/battery-charger/r/p/p/sony-cp-ad2-c-original-imaeggfv9waqpbnw.jpeg?q=70" alt="">
-                  <h4 class="text-center text-primary">Charger Cabinets</h4>
-                  </div>
-
-                </td>
-                <td>
-                  <div class="thumbnail"style="min-height:230px;min-width:120px;max-height:70%;max-width:30%;backgroundcolor:blue;">
-                  <img style="height:100%;width:100%;"src="https://rukminim1.flixcart.com/image/704/704/battery-charger/r/p/p/sony-cp-ad2-c-original-imaeggfv9waqpbnw.jpeg?q=70" alt="">
-                  <h4 class="text-center text-primary">Charger Cabinets</h4>
-                  </div>
-
-                </td>
-              </tr>
-
-            </tbody>
-
-          </table>
-          </div> -->
-        <!--   Horizontal Slides of Products belo Image of LED Green Ends-->
-  </div>
-
-
-  <div class="col-md-3"style="">
-
-
-        <b><h3 style="color:black;font-weight:lighter;text-align:center">P R O D U C T S</h3></b>
-          <center><div class="horiLine"style="border:solid 2px crimson;"></div></center>
-
-          <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
-                <a href="/w3images/lights.jpg">
-                  <img width="100%"height="100%"
-                  src="https://image.ibb.co/jryOh6/Charger2.jpg"
-                   alt="Lights" style="width:100%">
-                  <div class="caption text-center">
-                    <p>Charger Cabinets</p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
-                    <a href="/w3images/lights.jpg">
-                      <img src="https://image.ibb.co/hJG4QR/charger3.jpg" alt="Lights" style="width:100%">
-                      <div class="caption text-center">
-                        <p>Charger Cabinets</p>
-                      </div>
-                    </a>
-                  </div>
-
-  </div>
-
-</div>
-
-
-</div>
 <!-- Charger Cabinets End -->
 <br>
 <!--Cable Ties Start  -->
-<div class=""style="background-color:white;padding:2%;border-top:solid 2px gainsboro;overflow:hidden">
-
-<div class="row"id="CableTie">
-
-
-    <div class="col-md-6">
-      <b><h2 style="color:deepskyblue;font-weight:lighter">C A B L E &nbsp T I E S </h2></b>
-    </div>
-    <div class="col-md-6"><br>
-      <p style="text-align:right;color:deepskyblue">Specs &nbsp Features &nbsp T&C</p>
-
-    </div>
-</div>
-
-<hr style="height:35ppx;color:mediumseagreen !important">
-<!--Image of Cable Tie  -->
-<div class="row">
-  <div class="col-md-9"style="">
-        <img src="https://image.ibb.co/cpWth6/Cable_Tie1.jpg"style="max-width:100%;max-height:100%" alt="No IMG">
-        <div class="col-md-9"style="padding:3%">
-          <h3>Cable Ties</h3>
-          <p>We are a renowned and customer centric company,
-            which is engaged in delivering a comprehensive range of Cable Ties.</p>
-
-          <h4>Material :</h4>
-
-          <p> Nylon, PolyPropene, ABS, LDPE, PVC, Derylene, Nylon 6,6</p>
-          <h4>Available Sizes</h4>
-          <table class="table table-responsive table-bordered table-striped"style="overflow-x:scroll">
-            <tr>
-              <th>Length</th>
-              <th>Width</th>
-              <th>Color</th>
-            </tr>
-            <tr>
-              <td>50-700mm</td>
-              <td>1-25mm</td>
-              <td>All colors</td>
-            </tr>
-          </table>
-        <button class="btn btn-primary btn-lg"data-toggle="modal"data-target="#Request">Request Quote</button>
-        </div>
-
-  </div>
-
-  <div class="col-md-3"style="">
-
-
-        <b><h3 style="color:black;font-weight:lighter;text-align:center">P R O D U C T S</h3></b>
-          <center><div class="horiLine"style="border:solid 2px crimson;"></div></center>
-
-          <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
-                <a href="/w3images/lights.jpg">
-                  <img width="100%"height="100%"
-                  src="https://image.ibb.co/mF64pm/Cable_Tie2.png"
-                   alt="Lights" style="width:100%">
-                  <div class="caption text-center">
-                    <p>Blue Cable Ties</p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="thumbnail"style="border-bottom:solid 2px gainsboro;border-left:solid 2px gainsboro;">
-                    <a href="/w3images/lights.jpg">
-                      <img src="https://image.ibb.co/e4mR26/Cable_Tie3.jpg" alt="Lights" style="width:100%">
-                      <div class="caption text-center">
-                        <p>Red Cable Tie</p>
-                      </div>
-                    </a>
-                  </div>
-
-  </div>
-
-</div>
-
-
-</div>
 <!--Cable Ties End  -->
 <br>
 
@@ -1168,9 +983,10 @@
     <br>
     <div class="row">
       <div class="col-sm-12 form-group">
-        <button type="submit" class="btn btn-default pull-right">Send</button>
+        <button class="g-recaptcha btn btn-default pull-right" data-sitekey="6LdFoxUqAAAAACU8VH-3_N4RWOeSXP8WQ7jitj-P" data-callback="onSubmit">Send</button>
       </div>
     </div>
+    
   </form>
 
   </div>
@@ -1268,13 +1084,23 @@
 
 
     </div>
-    <div class="modal-footer">
+    <div class="modal-footer" style="display: flex;">
       <p class="text-left">Contact us and we'll get back to you within 24 hours</p>
-      <button type="button" id="closeModalbtn"class="btn btn-default" data-dismiss="modal">Close</button>
-      <button class="btn btn-success btn-lg btn-register" type="button"ng-click="$ctrl.submit(form)" onclick="document.getElementById('gform-modal-submit-btn').click()">
-        Send</button>
-
     </div>
+    <div style="display: flex;
+                justify-content: end;
+                margin-top: 0;
+                gap: 5px;
+                margin-right: 15px;
+                margin-bottom: 15px;
+                margin-top: -20px;">
+      <button type="button" id="closeModalbtn"class="btn btn-default" data-dismiss="modal">Close</button>
+      <!-- <div class="g-recaptcha" data-sitekey="6LdFoxUqAAAAACU8VH-3_N4RWOeSXP8WQ7jitj-P"></div> -->
+      <button 
+        data-sitekey="6LdFoxUqAAAAACU8VH-3_N4RWOeSXP8WQ7jitj-P" data-callback="onSubmit2"
+        class="g-recaptcha btn btn-success btn-lg btn-register" type="button"ng-click="$ctrl.submit(form)">
+        Send</button>
+      </div>
   </div>
 </div>
 </div>
@@ -1355,13 +1181,14 @@
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52421603-2"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PXXMTRZLNW"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-52421603-2');
+      gtag('config', 'G-PXXMTRZLNW');
     </script>
 
 <!-- Request Quote Modal Ends -->
