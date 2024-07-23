@@ -82,3 +82,18 @@ function myMap() {
     });
     marker.setMap(map);
   }
+
+  function onSubmit(token) {
+    console.log('onSubmit called')
+    document.getElementById("CommentForm").submit();
+  }
+  function onSubmit2(token){
+    console.log('onSubmit2 called')
+    console.log(document.getElementById('gform-modal-submit-btn'));
+    document.getElementById('gform-modal-submit-btn').click();
+  }
+
+  function onSubmit3(token){
+    console.log('onSubmit3 called');
+    document.getElementById("RequestQuoteForm").submit();
+  }
