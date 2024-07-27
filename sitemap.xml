@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.bhatienterprises.in/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-07-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bhatienterprises.in/#Services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <lastmod>2024-07-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bhatienterprises.in/#AboutUs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <lastmod>2024-07-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bhatienterprises.in/#ContactUs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <lastmod>2024-07-27</lastmod>
+  </url>
+</urlset>
